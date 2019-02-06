@@ -1,0 +1,36 @@
+{
+  "name": "movie-night",
+  "version": "0.1.0",
+  "homepage": "https://ratskin.github.io/movie-night",
+  "repository": "git@github.com:ratskin/movie-night.git",
+  "author": "ratskin <elliot.schep@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.3",
+    "react-router-dom": "^4.3.1",
+    "react-router-hash-link": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3",
+    "gh-pages": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
